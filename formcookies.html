@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM AND COOKIES</title>
+	<script type="text/javascript">
+  		var today = new Date();
+  		var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+
+  		function setCookie(name, value){
+    		document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+  		}
+	</script>
+</head>
+<body align="center">
+<form action="/action_page.php">
+  Name:<br>
+  <input type="text" name="name" value="">
+  <br>
+  Password:<br>
+  <input type="Password" name="Password" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

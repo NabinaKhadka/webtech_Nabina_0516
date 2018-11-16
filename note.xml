@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE note[
+	<!ELEMENT note (to,from,heading,body,nabina)>
+	<!ELEMENT to (#PCDATA)>
+	<!ELEMENT from (#PCDATA)>
+	<!ELEMENT heading (#PCDATA)>
+	<!ELEMENT body (#PCDATA)>
+	<!ELEMENT nabina (#PCDATA)>
+]>
+
+<note>
+<to>TOVE</to>
+<from>ASDFGH</from>
+<heading>asdfghjk</heading>
+<body>sdfghjk</body>
+<nabina>NABINA KHADKA</nabina>
+</note>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note[
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "WRITER:Donald Duck.">
+<!ENTITY copyright "copyright:W3Schools">
+]> 
+
+<note>
+<to>TOVE</to>
+<from>ASDFGH</from>
+<heading>asdfghjk</heading>
+<body>sdfghjk</body>
+<nabina>NABINA KHADKA</nabina>
+</note>
